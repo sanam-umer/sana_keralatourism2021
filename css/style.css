@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+body {
+	background: linear-gradient(-45deg, #52ee81, #04d473, #b8e8fa, #04b904);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body{
+    font-family: sans-serif;
+
+}
+.navbar_{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.navbar-nav a:hover { color: rgb(185, 174, 174) !important; }
+
+.navbar{
+    background-image: linear-gradient(to right,#000000,#20c997);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 45px;
+    padding-left: 20px; 
+    
+}
+
+
+.navbar-nav li{
+    padding: 0 8px;
+
+}
+.navbar-nav li a{
+    color:rgb(242, 248, 214) !important;
+    font-weight: 600;
+}
+
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    margin: 2em;
+    color: rgb(194, 42, 42);
+}
+.description{
+    font-family: sans-serif;
+    color: black;
+    
+    padding: 1em;
+    
+}
+.container{
+    font-family: sans-serif;
+    
+}
+.login-form {
+    margin-left: 25em;
+    
+}
+
+.login-form h3{
+    margin-left: 5em;
+    
+}
+.signup-form{
+    margin-left:15em ;
+
+}
+.signup-form h3{
+    margin-left: 4em;
+}
+h3{
+    padding: 1.5em;
+    margin-left: 2em;
+}
+.carousel-caption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+
+h2{
+    font-family:cursive;
+    font-style: oblique;
+    font-weight:bold;
+    
+    
+    color: rgb(250, 249, 241);
+}
+.content h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   font-size:3em ;
+   color: brown;
+   text-align: center;
+}
+
+
+ul img{
+    width: 100%;
+    max-height: 100%;
+    list-style: square;
+}
+ul a{
+    text-decoration: none;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(12, 12, 12);
+    margin: 2px;
+    border: 4px solid transparent;
+    display: inline-block
+    
+}
+
+.login-form{
+    
+    
+    background-color: rgb(238, 247, 245);
+    height: 38em;
+    width: 33em;
+    margin-left: 20em;
+    padding-left: 3.5em;
+    padding: 2em;
+}
+
+.signup-form{
+    
+    
+    background-color: rgb(245, 248, 248);
+    height: 44em;
+    width: 33em;
+    margin-left: 26em;
+    padding: 2em;
+    padding-left: 2em; 
+    
+}
+form .indicator{
+    height: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+  }
+  form .indicator span{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+  }
+  form .indicator span:nth-child(2){
+    margin: 0 3px;
+  }
+  form .indicator span.active:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .indicator span.weak:before{
+    background-color: #ff4757;
+  }
+  .indicator span.medium:before{
+    background-color: orange;
+  }
+  .indicator span.strong:before{
+    background-color: #23ad5c;
+  }
+  form .text{
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+    margin-bottom: -10px;
+  }
+  form .text.weak{
+    color: #ff4757;
+  }
+  form .text.medium{
+    color: orange;
+  }
+  form .text.strong{
+    color: #23ad5c;
+  }
+  
+
