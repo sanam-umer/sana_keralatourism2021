@@ -35,8 +35,7 @@ function validate()
     }
     else if(psr.test(pswd.value)!="1")
     {
-        window.alert("Password Is Invalid, try again");
-        window.alert("Password should be of minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number");
+        window.alert("Password Is Invalid");
 
         return false;
     }
